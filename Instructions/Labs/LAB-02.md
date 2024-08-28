@@ -157,7 +157,7 @@ In this task, you'll update the approval flow to refine its settings and configu
 
    -Time:
 
-   > Add the **Client Address, Client full name , Client email  Date, and Time fields** from the Dynamic content pane to the appropriate lines in the Body text.
+>**Note** : Add the **Client Address, Client full name , Client email  Date, and Time fields** from the Dynamic content pane to the appropriate lines in the Body text.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter-added.png)
 
