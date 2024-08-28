@@ -138,7 +138,7 @@ In this task, you'll update the approval flow to refine its settings and configu
 
 6. For the Subject field, enter the following text into the Copilot chat window and then press the Enter key on your keyboard:Add `Your request for a real estate showing has been approved` as the Subject parameter for the Send an email action
 
-      ![screenshot of the prompt ](../Media/02/power-automate-copilot-subject-parameter.png)
+    ![screenshot of the prompt ](../Media/02/power-automate-copilot-subject-parameter.png)
 
 7. For the Body field, enter the following text into the Copilot chat window and then press the Enter key on your keyboard:Add "Good day - Your request for a real estate showing has been approved. Please see below for details." as the Body parameter for the Send an email action. The Body field should populate with the prompt text.
 
@@ -158,7 +158,7 @@ In this task, you'll update the approval flow to refine its settings and configu
 
 >**Note** : Add the **Client Address, Client full name , Client email  Date, and Time fields** from the Dynamic content pane to the appropriate lines in the Body text.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter-added.png)
+![screenshot of the prompt ](../Media/02/power-automate-copilot-body-parameter-added.png)
 
 9. Add the **Response summary field** from the Dynamic content pane to the end of the Body text.
 
