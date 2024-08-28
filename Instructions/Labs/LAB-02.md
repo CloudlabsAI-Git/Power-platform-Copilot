@@ -108,7 +108,7 @@ In this task, you'll create an approval flow using Power Automate to automate th
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-confirmed-status.png)
 
-      >**Note:** When a showing is approved, the Status field in the Real Estate Showings table is updated to Confirmed.
+>**Note:** When a showing is approved, the Status field in the Real Estate Showings table is updated to Confirmed.
 
 28. Collapse the **Update a row action** and then select the **Update a row action** under the **False branch** of the condition.
 
@@ -192,7 +192,7 @@ In this task, you'll update the approval flow to refine its settings and configu
       -Time:
 
 
-      > **Add the Address, Agent Name, Date, and Time fields from the Dynamic content pane** to the appropriate lines in the Body text.
+>**Note**: **Add the Address, Agent Name, Date, and Time fields from the Dynamic content pane** to the appropriate lines in the Body text.
 
 18. Add the **Response summary field** from the Dynamic content pane to the end of the Body text, Collapse the Send an email action.
 
