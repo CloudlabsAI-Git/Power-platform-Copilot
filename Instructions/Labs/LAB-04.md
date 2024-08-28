@@ -18,7 +18,7 @@ In this task, you'll create a new flow in Power Automate to automate a specific 
    
 2.	Start to describe your automation scenario.
 
-    ![screenshot of the prompt ](../Media/04/copilot-home-example.png)
+     ![screenshot of the prompt ](../Media/04/copilot-home-example.png)
    
 3.	To accept the flow that Copilot created for you, select **Next**.
    
@@ -26,7 +26,7 @@ In this task, you'll create a new flow in Power Automate to automate a specific 
    
 5.	To finalize your flow, configure the required settings, and then select **Create flow**.
 
-   ![screenshot of the prompt ](../Media/04/designer-1.png)
+      ![screenshot of the prompt ](../Media/04/designer-1.png)
 
 6.	On the panel to the right, follow the Copilot suggestions to complete the flow setup, or make edits to your flow using Edit with Copilot.
    
@@ -44,18 +44,17 @@ In this task, you'll edit an existing flow using the designer with Copilot capab
    
 3.	Find your flow, select the **vertical ellipses (⋮)**, and then select **Edit**.
 
-   ![screenshot of the prompt ](../Media/04/copilot-edit.png)
- 
-      
+      ![screenshot of the prompt ](../Media/04/copilot-edit.png)
+       
 >**Note** : Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
 
-   - a.	Delete action X.
+   - Delete action X.
 
-   - b.	I want to send an email at the end of the flow with subject equal to the SharePoint file name.
+   - I want to send an email at the end of the flow with subject equal to the SharePoint file name.
 
-   - c .	Instead of email, I want to post message on Teams channel.
+   - Instead of email, I want to post message on Teams channel.
 
-   - d.	Check if each of the Sharepoint items being returned has a title that equals 'USB', and if so, send an email.
+   - Check if each of the Sharepoint items being returned has a title that equals 'USB', and if so, send an email.
 
 ## Summary 
 In this lab, you have accomplished the following:
