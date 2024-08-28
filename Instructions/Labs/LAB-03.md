@@ -99,7 +99,7 @@ In this task, you'll connect a Power Automate flow with Microsoft Copilot Studio
 
    ![screenshot of the prompt ](../Media/get-tem-last.png)
 
-   >**Note**: If the flow does not show up, save the Check Weather topic and refresh the page.
+>**Note**: If the flow does not show up, save the Check Weather topic and refresh the page.
 
 3. Select **Enter or select a value** and then select the **Region** variable that you created in previous steps of this lab. 
 
@@ -111,7 +111,7 @@ In this task, you'll connect a Power Automate flow with Microsoft Copilot Studio
    Message node:
    `For {Topic.Region} the temperature is {Topic.Temperature} and that is getting warm! Consider cooling off with one of our cold brew coffees.`
 
-      >**Note**: The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list.
+>**Note**: The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list.
 
 6. For the All other conditions branch, add the following text within the message node: The temperature for **{Region}** is `{Topic.Temperature}`. Where the braces { } are variables to display dynamic data.
    
