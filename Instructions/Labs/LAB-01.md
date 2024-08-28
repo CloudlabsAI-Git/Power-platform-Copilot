@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
    
      ![screenshot of the prompt ](../Media/image8.png)
 
-  >**Note**: Close the welcome tour prompt. 
+>**Note**: Close the welcome tour prompt. 
 
 4. In the site navigation, click on **Environments**, then click **+ New** on the toolbar.
 
@@ -103,9 +103,9 @@ In this task, you'll use Power Apps Copilot to quickly create a canvas app, incl
 
     ![screenshot of the prompt ](../Media/01/client-address-1.png)
 
-    > **Note**: Your table may have several columns. Consider removing any columns that you do not plan to use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
+>**Note**: Your table may have several columns. Consider removing any columns that you do not plan to use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
 
- > **Note**: When you first open the app, you might see a welcome message.just click the **Skip** button.
+>**Note**: When you first open the app, you might see a welcome message.just click the **Skip** button.
 
 12. The app that has been built for you should show in **Edit** mode.
 
@@ -162,7 +162,7 @@ In this task, you'll use Power Apps Copilot to make edits to your app, such as m
 
     ![screenshot of the prompt ](../Media/01/copilot-view-text-1.png)
 
-    >**Note**:previously changed the ID field to Autonumber, you don’t want users entering their own number; Dataverse automatically enters the numbers for you.
+>**Note**:previously changed the ID field to Autonumber, you don’t want users entering their own number; Dataverse automatically enters the numbers for you.
 
 15. In the Fields pane, select the X in the upper-right corner to close the pane.
 
@@ -194,7 +194,7 @@ In this task, you'll use Power Apps Copilot to make edits to your app, such as m
 
     - Address - 210 Pine Road, Portland, OR 97204
 
-  > **Note** : This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties 
+>**Note** : This address is one of the addresses from the Microsoft Excel file in Module 1, and it's the same file that you uploaded and turned into the Real Estate Properties 
    table.Though you'd usually have a lookup field to the Real Estate Properties table, this lab doesn't provide one to keep it simple.
 
 20. Select the check mark in the upper-right corner of the screen.
