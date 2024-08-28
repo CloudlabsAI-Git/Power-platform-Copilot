@@ -23,13 +23,13 @@ In this task, you'll create a cloud flow in Power Automate to automate a specifi
    
 3. Create a new **solution** named **Copilot**.
 
-   ![screenshot of the prompt ](../Media/05/solution.png)
+    ![screenshot of the prompt ](../Media/05/solution.png)
     
 4. Select **Copilot** under solution and Select **New > Automation > Cloud flow > Automated.**
 
-   ![screenshot of the prompt ](../Media/05/select-new-flow.png)
+    ![screenshot of the prompt ](../Media/05/select-new-flow.png)
 
-    >**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
+>**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
 
 5. Give your flow a name as **my child flow**.
    
@@ -37,7 +37,7 @@ In this task, you'll create a cloud flow in Power Automate to automate a specifi
    
 7. Select the **When a new email arrives (V3) trigger**.
 
-   ![screenshot of the prompt ](../Media/05/search-trigger.png)
+    ![screenshot of the prompt ](../Media/05/search-trigger.png)
         
 8. Select **Create**.
     
@@ -45,17 +45,17 @@ In this task, you'll create a cloud flow in Power Automate to automate a specifi
 	
 10. Search for **Notification**, and then select the**Send me a mobile notification action**.
 
-    ![screenshot of the prompt ](../Media/05/new-notification.png)
+     ![screenshot of the prompt ](../Media/05/new-notification.png)
 
 11. Add the Subject dynamic token to the Text field of the Send me a mobile notification card.
 
-    ![screenshot of the prompt ](../Media/05/new-email-notification-flow.png)
+     ![screenshot of the prompt ](../Media/05/new-email-notification-flow.png)
 
 12. Select **Save** to save your flow.
     
 13. Go back and Select **Solutions** to see your flow in the solution.
 
-    ![screenshot of the prompt ](../Media/05/new-flow-inside-solution.png)
+     ![screenshot of the prompt ](../Media/05/new-flow-inside-solution.png)
 
 ## Task-02: Add an owner to a cloud flow.
 
@@ -77,11 +77,11 @@ In this task, you'll add an owner to a cloud flow in Power Automate. You'll acce
    
 7. Select the flow that you want to share, select the **vertical ellipsis (⋮)**, and then select **Share**.
 
-    ![screenshot of the prompt ](../Media/view.png)
+     ![screenshot of the prompt ](../Media/view.png)
     
 8. Enter the name, email address, or group name for the person or group that you want to add as an owner.
 
-    ![screenshot of the prompt ](../Media/adduser.png)
+     ![screenshot of the prompt ](../Media/adduser.png)
     
 9. The user or group you've selected becomes an owner of the flow.
 
@@ -100,7 +100,7 @@ In this task, you'll add a list of users as co-owners to a cloud flow in Power A
    
 5. In the confirmation dialog box, select **Remove**.
 
-    ![screenshot of the prompt ](../Media/edit.png)
+     ![screenshot of the prompt ](../Media/edit.png)
    
 ## Task-04: Send a copy of a cloud flow
 
