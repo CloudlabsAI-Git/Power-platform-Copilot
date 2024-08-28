@@ -121,8 +121,7 @@ In this task, you'll connect a Power Automate flow with Microsoft Copilot Studio
 
 7. To end the conversation, select the **Add node** button below the condition. Select **Topic management** and then choose **End conversation**.
 
-
-   ![screenshot of the prompt ](../Media/3.1/endcon.png)
+    ![screenshot of the prompt ](../Media/3.1/endcon.png)
 
 8. **Save** your topic using the button found in the top right corner of the screen and then Click on **test your copilot** and test it out 
 
