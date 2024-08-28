@@ -27,7 +27,7 @@ In this lab, you will complete the following tasks:
 3. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-     ![screenshot of the prompt ](../Media/image8.png)
+   ![screenshot of the prompt ](../Media/image8.png)
 
 >**Note**: Close the welcome tour prompt. 
 
