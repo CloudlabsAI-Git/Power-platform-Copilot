@@ -22,18 +22,40 @@ In this lab, you will complete the following tasks:
 2. On **Sign into Microsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-   ![screenshot of the prompt ](../Media/image7.png)
+      ![screenshot of the prompt ](../Media/image7.png)
 
 3. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-   ![screenshot of the prompt ](../Media/image8.png)
+      ![screenshot of the prompt ](../Media/image8.png)
 
->**Note**: Close the welcome tour prompt. 
+   * Select **Next** on the **Action Required** prompt, and follow the below steps:
+
+      1. On the **"Keep your account secure"** page, select **Next** twice.
+
+      1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
+
+         - Open **Google Play Store** (Android) or **App Store** (iOS).
+         - Search for **Microsoft Authenticator** and tap **Install**.
+         - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
+
+      1. A **QR code** will be displayed on your computer screen.
+
+      1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+
+      1. After scanning, click **Next** to proceed.
+
+      1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
+            
+      1. If prompted to stay signed in, you can click "No."
+      
+      1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+
+      >**Note**: Close the welcome tour prompt. 
 
 4. In the site navigation, click on **Environments**, then click **+ New** on the toolbar.
 
-   ![screenshot of the prompt ](../Media/new11.png)
+   ![screenshot of the prompt ](../Media/env-(1).png)
 
 5. Create a new Environment with the following settings:
 
@@ -42,74 +64,83 @@ In this lab, you will complete the following tasks:
    - **Region**: **United States - Default (3)**
    - **Type**: **Sandbox (4)**
    - **Add a Dataverse data store?**: **Yes (5)**
+   - Keep all other settings unchanged, Click on **Next (6)**. 
   
-    ![screenshot of the prompt ](../Media/copilot-final-1-1-1.jpg) 
-
-6. Keep all other settings unchanged, Click on **Next**.  
+      ![screenshot of the prompt ](../Media/copilot-final-1-1-1.jpg)  
  
-9. On the **Add Dataverse** tab, under **Security group** use the **+ Select** button, and under **Open access**, select **None**.
+6. On the **Add Dataverse** tab, under **Security Group**, click the **+ Select** button. Then, under **Open Access**, choose **None (1)** and click **Done (2)**.
 
    ![screenshot of the prompt ](../Media/select-2.jpg)
 
-   ![screenshot of the prompt ](../Media/non-1.png)
+7. Select **Save**, on the **Add Dataverse** prompt.
+ 
+8. In the list of environments, your **Copilot** environment should now show as **Preparing**.
 
-10. Select **none (1)** and select **Save (2)**.
- 
-11. In the list of environments, your **Copilot** environment should now show as **Preparing**.
+   ![screenshot of the prompt ](../Media/copilot-env-1.png)
 
->**Note**:Your practice environment will take a few minutes to provision. Refresh the **Environments** list if needed.
+      >**Note**:Your practice environment will take a few minutes to provision. Refresh the **Environments** list if needed.
  
-12. When your environment shows as **Ready**, select your **Copilot** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**.
+9. When your environment shows as **Ready**, select your **Copilot** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**.
  
->**Note**: Browse through the various sections under **Settings** that interest you, but refrain from making any modifications.
+      >**Note**: Browse through the various sections under **Settings** that interest you, but refrain from making any modifications.
 
 ## Task–02: Create an app with Copilot.
 
 In this task, you'll use Power Apps Copilot to quickly create a canvas app, including generating and populating tables with data. You'll then design the app interface and test its functionality.
 
-1. On the browser tab, go to `https://make.powerapps.com` to access Power Apps.
+1. Open a new browser tab and navigate to [https://make.powerapps.com](https://make.powerapps.com) to access Power Apps.
+
+   >**Note:** Make sure you are in the **Copilot** environment that you created in the previous task.
+
+      ![screenshot of the prompt ](../Media/copilot-(1).png)
 
 2. Enter the following prompt to search for an AI-generated table **build an app to manage real estate showings** , Select the Send button.
 
    ![screenshot of the prompt ](../Media/copilot-chat-prompt-1-1.png) 
 
-3. Once Copilot AI generates a table based on your prompt, review the table to see the columns that have been created initially.
+3. Once Copilot AI generates a table based on your prompt, review the tables to see the columns that have been created initially.
 
-   ![screenshot of the prompt ](../Media/01/copilot-table-1.png)
+   ![screenshot of the prompt ](../Media/build-answer.png)
 
-4. In the text box at the bottom of the Copilot pane on the right side of the screen, type the following text: **add a column to track client full name**. Then, click the Send button.
+4. In the text box at the bottom of the Copilot pane on the right side of the screen, type the following text: **add a column to track client full name in all the three tables**. Then, click the Send button.
 
-   ![screenshot of the prompt ](../Media/01/copilot-table-new-column-1.png)
+   ![screenshot of the prompt ](../Media/clientfullname.png)
 
->**Note**: Copilot notifies you that the table is updated, and the new column should show as being added to the table.
+   >**Note**: Copilot notifies you that the table is updated, and the new column should show as being added to the tables.
 
-4. Enter the following text: **add a column to track client email**. Then, click the Send button.
+5. Enter the following text: **add a column to track client email in all the three tables**. Then, click the Send button.
 
-    ![screenshot of the prompt ](../Media/copilot-table-new-column-email-1-2.png)
+    ![screenshot of the prompt ](../Media/clientemailfull.png)
 
->**Note**:
- - The data that's generated in your table might vary from the data that's shown in the table in the screenshots for this lab.
- - The Suggestions section in the lower-left corner of the screen provides you with different suggestions on how you can add to and modify your table.
+   >**Note**:
+   - The data that's generated in your table might vary from the data that's shown in the table in the screenshots for this lab.
+   - The Suggestions section in the lower-left corner of the screen provides you with different suggestions on how you can add to and modify your table.
 
-5. Enter the following text:	**add an option for “Completed” to the Status column**. Select the Send button.
+6. Enter the following text:	**add an option for “Completed” to the Status column**. Select the Send button.
 
-   ![screenshot of the prompt ](../Media/01/edit-table-1.png)
+   ![screenshot of the prompt ](../Media/agent-slow.png)
 
-6. Enter the following text in the Copilot pane text box: **add 5 more rows of data**, Click Send. This action will insert five new rows of data for each existing column in your table.
+7. Enter the following text in the Copilot pane text box: **add 5 more rows of data in all the three tables**, Click Send. This action will insert five new rows of data for each existing column in your table.
 
-    ![screenshot of the prompt ](../Media/copilot-table-new-rows-1-1.png)
+    ![screenshot of the prompt ](../Media/fivetablesadded.png)
 
-10. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address (1)**. Select the **Send button (2)**,Select the **Create (3)**
+8. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address in all the three tables**. Select the **Send** button. 
 
-    ![screenshot of the prompt ](../Media/01/client-address-1.png)
+    ![screenshot of the prompt ](../Media/clientaddress.png)
 
->**Note**: Your table may have several columns. Consider removing any columns that you do not plan to use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
+9. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client ID in all the three tables**. Select the **Send** button. 
 
->**Note**: When you first open the app, you might see a welcome message.just click the **Skip** button.
+10. Select **Save and open app** twice to open the app.
 
-12. The app that has been built for you should show in **Edit** mode.
+      ![screenshot of the prompt ](../Media/saveandapp.png)
 
-    ![screenshot of the prompt ](../Media/01/reordsgallery-1.png)
+      >**Note**: Your table may have several columns. Consider removing any columns that you do not plan to use:The list of columns that you need are: ID ,	Address , Date , Time , Status , Agent Name, Client Full Name, Client Email.
+
+      >**Note**: When you first open the app, you might see a welcome message.just click the **Skip** button.
+
+11. The app that has been built for you should show in **Edit** mode.
+
+    ![screenshot of the prompt ](../Media/welocomescreen.png)
 
 
 ## Task–03: Make edits using Copilot to edit your app.
