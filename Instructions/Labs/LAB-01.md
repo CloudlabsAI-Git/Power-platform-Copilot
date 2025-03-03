@@ -124,7 +124,7 @@ In this task, you'll use Power Apps Copilot to quickly create a canvas app, incl
 
     ![screenshot of the prompt ](../Media/fivetablesadded.png)
 
-8. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address in all the three tables (1)**. Select the **Send** button. 
+8. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client Address in all the three tables**. Select the **Send** button. 
 
     ![screenshot of the prompt ](../Media/clientaddress.png)
 
