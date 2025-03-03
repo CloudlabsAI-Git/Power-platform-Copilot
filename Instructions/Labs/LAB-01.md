@@ -128,7 +128,9 @@ In this task, you'll use Power Apps Copilot to quickly create a canvas app, incl
 
     ![screenshot of the prompt ](../Media/clientaddress.png)
 
-9. Select **Save and open app** twice to open the app.
+9. In the text box, in the lower part of the Copilot pane to the right of the screen, enter the following text: **add a column to track Client ID in all the three tables**. Select the **Send** button. 
+
+10. Select **Save and open app** twice to open the app.
 
       ![screenshot of the prompt ](../Media/saveandapp.png)
 
@@ -136,7 +138,7 @@ In this task, you'll use Power Apps Copilot to quickly create a canvas app, incl
 
       >**Note**: When you first open the app, you might see a welcome message.just click the **Skip** button.
 
-10. The app that has been built for you should show in **Edit** mode.
+11. The app that has been built for you should show in **Edit** mode.
 
     ![screenshot of the prompt ](../Media/welocomescreen.png)
 
