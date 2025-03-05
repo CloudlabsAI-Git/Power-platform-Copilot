@@ -25,69 +25,81 @@ In this task, you'll create a new topic in Power Automate to help organize and m
 
    ![screenshot of the prompt ](../Media/copilot-env.png)
 
+3. To create a new agent click on **New agent** then click on **Skip to Configure**.
+
+   ![screenshot of the prompt ](../Media/L3T1S3.png)
+4. Enter the name as **Check Weather (1)** and then select **Create (2)**.
    
-3. Create a new copilot named **User 1 Contoso Customer** 
-
-   ![screenshot of the prompt ](../Media/newcopilot.png)
-
-   ![screenshot of the prompt ](../Media/03/login-2.png)
+   ![screenshot of the prompt ](../Media/L3T1S3-1.png)
 	
-3. Select the **New Topic** drop down at the top of the page and **choose the From Blank** 
-  option. Enter **Check Weather** as the name of your topic.
+5. Select the **Topics (1)**. Click on **+ Add a topic (2)** and then choose an option **From blank (3)**. 
 
-   ![screenshot of the prompt ](../Media/fromblk.png)
+   ![screenshot of the prompt ](../Media/L3T1S4.png)
 
-5. Click on edit Phrases then enter simple trigger phrases, such as **What is the weather** and **What is the temperature today**, until you have at least five trigger phrases. Select the **Edit** button within the node to open a pane to the right of the screen where you can add the trigger phrases.
+6. Go to **Details (1)** options to Enter **Check Weather (2)** as the name of your topic. Click on **Save (3)**.
+
+   ![screenshot of the prompt ](../Media/L3T1S4-1.png)
+
+7. Click on **Edit (1)** within Phrases to open a pane to the right of the screen where you can enter simple trigger phrases, such as **What is the weather**, **What is the temperature today**, and **How hot it is (3)** until you have at least five trigger phrases. 
+
+   ![screenshot of the prompt ](../Media/L3T1S5.png)
 
    ![screenshot of the prompt ](../Media/03/phrases.png)
 
-6. Create a **new Question node** below the trigger phrase node and then enter text, such as: `Of course, I can share the weather with you! Can you tell me the name of the region where you want to know the weather?`
+8. Create a **new Question node** below the trigger phrase node and then enter text, such as: `Of course, I can share the weather with you! Can you tell me the name of the region where you want to know the weather?`
 
    ![screenshot of the prompt ](../Media/3.1/question.png)
 
-7. Rename the variable to **Region**. To do so, select the name of the variable within the node. Within a pane that appears to the right of the screen.
+9. Under the Identity select **User's entire response**. Then Rename the variable to **Region**. To do so, select the name of the variable within the node. Within a pane that appears to the right of the screen.
 
    ![screenshot of the prompt ](../Media/3.1/phraese1.png)
 
-8. Within the top right corner of the screen, select the **Save** button to ensure that your work is saved.
+10. Within the top right corner of the screen, select the **Save** button to ensure that your work is saved.
 
  ## Task 02: Create your Power Automate flow.
 
  In this task, you'll create a Power Automate flow to automate a specific process. You'll start by defining a trigger to initiate the flow, then set up actions to execute tasks based on the trigger. The goal is to streamline and automate repetitive processes, improving efficiency and productivity. 
 
-1. Select the **Add node button** below the question node to add a new node to the topic. Select **Call an action > Create a flow**. Power Automate opens in a new browser window 
+1. Select the **Add node** button below the question node to add a new node to the topic. Select **Add an action > New Power Automate flow**. Power Automate opens in a new browser window.
 
-   ![screenshot of the prompt ](../Media/get-flow.png)
+   ![screenshot of the prompt ](../Media/L3T2S2.png)
 
-2. Click on In the first node **When Power Virtual Agents Calls a flow** new flow window that opens, select the **Add an input** within the first scaffolded action. Then, select **Text**.
+2. Click on the first node **Run a flow from Copilot**, a new flow window will open, select the **Add an input** within the first scaffolded action. Then, select **Text**.
 
-   ![screenshot of the prompt ](../Media/main.png)
+   ![screenshot of the prompt ](../Media/L3T2S2-1.png)
        
-   ![screenshot of the prompt ](../Media/plus-plus.png)
+   ![screenshot of the prompt ](../Media/L3T2S2-2.png)
 
 3. Within the first column, enter `Region` (leaving the second column empty).
 
-   ![screenshot of the prompt ](../Media/plus.png)
+   ![screenshot of the prompt ](../Media/L3T2S3.png)
 
-4. Then, select the **Insert new step** button to **add a new action**.
+4. Then, right click on the **Insert new step** button to **add a new action**. Select the **Add an action** option from the menu.
 
-5. Select the **Add an action** option from the menu.
+   ![screenshot of the prompt ](../Media/L3T2S4.png)
 
-6. Enter `weather` in the search bar and then select **Get current weather by MSN Weather**.
+6. Enter `weather` in the search bar and then select **Get current weather by MSN Weather**. Click on **Create new**.
     
-   ![screenshot of the prompt ](../Media/3.1/weather.png)
+   ![screenshot of the prompt ](../Media/L3T2S5.png)
 
-7. A new node appears, where you can enter the location , from the Dynamic content drop-down menu, select **Region** and then keep units as **Imperial**.
+   ![screenshot of the prompt ](../Media/L3T2S5-1.png)
 
-   ![screenshot of the prompt ](../Media/3.1/getcurrent.png)
+8. A new node appears, where you can enter the location, use **/** to get the Dynamic content drop-down menu, select **Region** and then keep units as **Imperial**.
 
-8. Select the **Return value(s) to Microsoft Copilot Studio** node at the end of the flow, then select **Add an output > Number** . Place your cursor in the **Enter a value to respond** text box. Select **Temperature** from dynamic data to add it to the response text box. Then, enter **Temperature** in the Title field.
+   ![screenshot of the prompt ](../Media/L3T2S7.png)
 
-   ![screenshot of the prompt ](../Media/03/temperature.png)
+   ![screenshot of the prompt ](../Media/L3T2S7-1.png)
 
-9. The flow is almost complete, select the template title and rename it to `Get Temperature`.
+10. Select the **Respond to Copliot** node at the end of the flow, then select **Add an output > Number**. Place your cursor in the **Enter a value to respond** text box. Press **/** to insert dynamic value. Select **Insert dynamic content** and then **Temperature**. Enter **Temperature** in the Title field.
 
-10. Select **Save** on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success then Select **Publish** .
+   
+   	![screenshot of the prompt ](../Media/L3T2S8.png)
+
+   	![screenshot of the prompt ](../Media/L3T2S8-1.png)
+
+11. The flow is almost complete, select the template title and rename it to `Get Temperature`.
+
+12. Select **Save draft** on the flow in Power Automate to ensure that it saves. Wait a moment until the green banner appears, indicating success then Select **Publish** .
 
 ## Task 03 : Connect a Power Automate flow with Microsoft Copilot Studio.
 
@@ -95,9 +107,9 @@ In this task, you'll connect a Power Automate flow with Microsoft Copilot Studio
 
 1. In this task, you connect a Power Automate flow with Microsoft Copilot Studio `https://web.powerva.microsoft.com`
 
-2. Open your existing topic in Microsoft Copilot Studio, entitled **Weather**, and return to the bottom of your flow, as shown in the following screenshot. Select **Call an action**. Your new Power Automate flow displays in the list. From the list, select **Get Temperature**.
+2. Open your existing topic in Microsoft Copilot Studio, entitled **Weather**, and return to the bottom of your flow, as shown in the following screenshot. Select **Add an action**. Your new Power Automate flow displays in the list. From the list, select **Get Temperature**.
 
-   ![screenshot of the prompt ](../Media/get-tem-last.png)
+   ![screenshot of the prompt ](../Media/L3T3S3.png)
 
 >**Note**: If the flow does not show up, save the Check Weather topic and refresh the page.
 
@@ -123,7 +135,7 @@ In this task, you'll connect a Power Automate flow with Microsoft Copilot Studio
 
     ![screenshot of the prompt ](../Media/3.1/endcon.png)
 
-8. **Save** your topic using the button found in the top right corner of the screen and then Click on **test your copilot** and test it out 
+8. **Save** your topic using the button found in the top right corner of the screen and then Click on **Test your agent** and test it out 
 
    ![screenshot of the prompt ](../Media/3.1/endotput.png)
 	
