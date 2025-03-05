@@ -17,11 +17,9 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll create a new topic in Power Automate to help organize and manage your flows. You’ll navigate to the Topics section, set up a descriptive name for the topic, and categorize relevant flows under it, enhancing workflow management and organization.
 
-1. Login to **https://copilotstudio.microsoft.com/** and get started login with the **<inject key="AzureAdUserEmail"></inject>** and choose the **Region** and enter the **dummy phone number**
+1. Open a new tab and go to **[Microsoft Copilot Studio](https://copilotstudio.microsoft.com/)**. On the **Welcome to Microsoft Copilot Studio** page, select **United States** under **Choose your country/region**, then click **Start free trial**.
 
-   ![screenshot of the prompt ](../Media/getstarted.png)
-
-2. Choose the **Copilot** Environment .
+1. Select the **Copilot** Environment which you created in the previous lab.
 
    ![screenshot of the prompt ](../Media/copilot-env.png)
 
