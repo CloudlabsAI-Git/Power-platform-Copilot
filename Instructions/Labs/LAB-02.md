@@ -15,85 +15,95 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll create an approval flow using Power Automate to automate the process of submitting requests for approval. You'll configure the flow to handle approval requests, capture responses, and execute actions based on those responses.
 
-1. Sign in to https://make.powerautomate.com.
+1. Open a new tab and browse to [https://make.powerautomate.com](https://make.powerautomate.com). From the top menu, select the **Copilot** environment that you created in the previous task.
 
-2. In the center of the Home page within Power Automate enter the following prompt: ` Request approval when a dataverse record with a approvals and condition below approvals true or false `, Select the **Submit** button .
+    ![screenshot of the prompt ](../Media/powerautomate-1.png)
 
-   ![screenshot of the prompt ](../Media/02/01.png)
+2. In the center of the Home page within Power Automate enter the following prompt: ` Request approval when a dataverse record with a approvals and condition below approvals true or false `, Select the **Generate** button .
 
-4. From the prompt, Copilot provides the outline for a suggested flow that you can review. To accept the flow, select **Next**
+   ![screenshot of the prompt ](../Media/dataverse-10.png)
+
+3. On the **Describe it to design it** prompt, Copilot provides the outline for a suggested flow that you can review. To accept the flow, select **Keep it and continue**
+
+    ![screenshot of the prompt ](../Media/keeipitcontinue.png)
    
-5. Review the connected apps and services. If a connection hasn't been made, edit or fix it and then select **Create flow**.The Edit with Copilot designer opens with your flow along with a Copilot chat window on the right.
+4. Review the connected apps and services. If a connection hasn't been made, edit or fix it and then select **Create flow**.The Edit with Copilot designer opens with your flow along with a Copilot chat window on the right.
+
+    ![screenshot of the prompt ](../Media/create-flow-09.png)
   
-6. Set up some parameters by selecting the **When a row is added,** modified or deleted trigger.A panel on the left side of the screen shows the trigger details, including an empty Table Name parameter that's required.
+<!-- 5. Set up some parameters by selecting the **When a row is added,** modified or deleted trigger.A panel on the left side of the screen shows the trigger details, including an empty Table Name parameter that's required.
 
    ![screenshot of the prompt ](../Media/02/02.png)
 
 7. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
 
-   ![screenshot of the prompt ](../Media/02/power-automate-copilot-table-name.png)
+   ![screenshot of the prompt ](../Media/02/power-automate-copilot-table-name.png) -->
 
-8. Select the **Start and wait for an approval action**. Notice that the Approval Type parameter is missing.
+5. Select the **Start and wait for an approval action**. Notice that the Approval Type parameter is missing.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-type.png)
 
-9. From the **Approval Type dropdown** menu, select **Approve/Reject - First to respond**.After you select the Approval Type, more parameters are now available.
+6. From the **Approval Type dropdown** menu, select **Approve/Reject - First to respond**.After you select the Approval Type, more parameters are now available.
 
    ![screenshot of the prompt ](../Media/02/power-automate-copilot-approval-type-selected.png)
 
-10. In the Copilot chat window, enter the following prompt:  Add "**New Request for Real Estate Showing**" as the Title parameter for the **Start and wait for an approval action** ,It takes a few seconds for Copilot to process the prompt. When processing is complete, the Title parameter is populated with the prompt text.
+7. In the Copilot chat window, enter the following prompt:  Add "**New Request for Real Estate Showing**" as the Title parameter for the **Start and wait for an approval action** ,It takes a few seconds for Copilot to process the prompt. When processing is complete, the Title parameter is populated with the prompt text.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-title-parameter.png)
 
-11. For the Assigned To parameter, enter the **email address** **<inject key="AzureAdUserEmail"></inject>** that you're using for this lab. This email address is the one that receives the approval request.
+8. For the Assigned To parameter, enter and select **<inject key="AzureAdUserEmail"></inject>** that you're using for this lab. This email address is the one that receives the approval request.
 
-12. For the Details parameter, enter the following text:`A new request for a real estate showing has been created. Please review the details below and approve or reject the request:
+9. For the Details parameter, enter the following text:
+    
     ```
-    - Property:
-    - Client:
-    - Client Email:
-    - Date:
-    - Time:
-
+    A new request for a real estate showing has been created. Please review the details below and approve or reject the request:
+    Property:
+    Client:
+    Client Email:
+    Date:
+    Time:
     ```
       ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter.png)
 
-14. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
+10. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-dynamic-content-icon.png)
 
-15. In the Dynamic content pane, select See More to expand the list of available dynamic content.
+11. In the Dynamic content pane, select See More to expand the list of available dynamic content.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-see-more.png)
+    ![screenshot of the prompt ](../Media/seemore-text.png)
 
-16. Scroll down until you find the Address field and then select it.
+12. Search the **Full address** field and then select it.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-property-field.png)
+    ![screenshot of the prompt ](../Media/full-address-1.png)
 
-17. The  **Client Address** dynamic content field is now added to the Details parameter.
+13. The  **Client Address** dynamic content field is now added to the Details parameter.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-property-field-added.png)
+    ![screenshot of the prompt ](../Media/property-full-address-1.png)
 
-18. Complete the same steps for the **Client Address,Client Full Name, Client Email , Date, and Time fields**, When you're done with the rest of the fields, the values should resemble the following image.
+14. Complete the same steps for the **Client Address,Client Full Name, Client Email , Date, and Time fields**, When you're done with the rest of the fields, the values should resemble the following image.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter-added.png)
+    ![screenshot of the prompt ](../Media/client-details-1.png)
 
-19. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
+15. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
 
     ![screenshot of the prompt ](../Media/copilot-start-wait-approval-collapsed-1.png)
 
-20. Select the **Condition action**.
+16. Select the **Condition** action. Click the **+ (1)** icon under **Start and wait for an approval**. In the **Add an action** pane, search for **Condition (2)** and select it from **Control**.
 
-21. Select the Choose a value box and then select **Outcome from the Dynamic content** pane.
+    ![screenshot of the prompt ](../Media/add-an-action.png)
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-outcome.png)
+17. Select the **Condition1**, choose a value box and then select **Outcome** from the Dynamic content pane.
 
-22. Select is **equal to for the condition** and then enter **Approve for Value**.
+18. Select **is equal to** and then enter **Approve for Value**.
 
+    ![screenshot of the prompt ](../Media/outcome-post1.png)
 
-23. Collapse the Condition action and then select the **Update a row action** under the **True branch** of the condition.
+19. Collapse the **Condition** action, then select **+ (1)** under the **True** branch. In the **Add an action** prompt, search for **Update a row (2)** and select it under **Microsoft Dataverse**.
 
-24. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
+    ![screenshot of the prompt ](../Media/updatetherow-1.png)
+
+20. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
 
 25. Select the **Row ID field** and then select the **Real Estate Showings** unique identifier field from the Dynamic content pane.
 
