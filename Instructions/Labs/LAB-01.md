@@ -154,13 +154,13 @@ In this task, you'll use Power Apps Copilot to quickly create a canvas app, incl
 
    ![screenshot of the prompt ](../Media/viewdata(1).png)
 
-1. Select the **ID** column header from the table.	From the dropdown menu, Select the **Edit** column option.
+<!-- 1. Select the **ID** column header from the table.	From the dropdown menu, Select the **Edit** column option.
    
    ![screenshot of the prompt ](../Media/01/copilot-edit-column-1.png)
   
 1. In this example, you need to change the Data type from "Single line of text." To do this, go to the Edit column pane, select **#Autonumber** from the Data type dropdown menu, then click **Save**. Finally, select the **Close** button in the lower-right corner of the Edit table dialog.
 
-   ![screenshot of the prompt ](../Media/01/save-column-1.png)
+   ![screenshot of the prompt ](../Media/01/save-column-1.png) -->
 
 1. Make sure your table looks similar to the image below.
 
@@ -183,7 +183,7 @@ In this task, you'll use Power Apps Copilot to quickly create a canvas app, incl
 
 In this task, you'll use Power Apps Copilot to make edits to your app, such as modifying existing elements, adding new features, and adjusting data. Copilot will guide you through streamlining and enhancing your app’s functionality and design.
 
-1. In the Data pane on the right side of the **Property** table, click the **ellipsis (three dots)**. From the menu that appears, Choose **Edit** data.
+<!-- 1. In the Data pane on the right side of the **Property** table, click the **ellipsis (three dots)**. From the menu that appears, Choose **Edit** data.
 
    ![screenshot of the prompt ](../Media/copilot-edit-data.png)
 
@@ -193,7 +193,7 @@ In this task, you'll use Power Apps Copilot to make edits to your app, such as m
   
 1. In this example, you need to change the Data type from "Single line of text." To do this, go to the Edit column pane, select **#Autonumber** from the Data type dropdown menu, then click **Save**. Finally, select the **Close** button in the lower-right corner of the Edit table dialog.
 
-   ![screenshot of the prompt ](../Media/01/save-column-1.png)
+   ![screenshot of the prompt ](../Media/01/save-column-1.png) -->
 
 1. On the **Real Estate Showings screen (1)**, select **RecordsGallery1 (2)** to display Real Estate Showings and then select the **Title1 (3)** and then set the Text value to the following formula: **ThisItem.'Address' (4)**.
 

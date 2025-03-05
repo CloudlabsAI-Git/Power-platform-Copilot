@@ -89,9 +89,7 @@ In this task, you'll create an approval flow using Power Automate to automate th
 
     ![screenshot of the prompt ](../Media/02/power-automate-copilot-outcome.png)
 
-1. Select **is equal to** and then enter **Approve for Value**.
-
-    ![screenshot of the prompt ](../Media/outcome-post1.png)
+1. Select **is equal to** and then enter **Approve**.
 
 1. Collapse the **Condition** action and then select the **Update a row** action under the **True** branch of the condition.
 
