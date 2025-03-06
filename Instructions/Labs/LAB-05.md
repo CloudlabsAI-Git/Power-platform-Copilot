@@ -8,12 +8,12 @@ In this exercise, you will share a cloud flow with others using Microsoft Power 
 
 In this lab, you will complete the following tasks:
 
-- Task-01 : Create A cloud Flow.
+- Task-01: Create A cloud Flow.
 - Task-02: Add an owner to a cloud flow.
 - Task-03: Add a list as a co-owner.
 - Task-04: Send a copy of a cloud flow.
 
-## Task-01 : Create A cloud Flow
+## Task-01: Create A cloud Flow
 
 In this task, you'll create a cloud flow in Power Automate to automate a specific process. You'll start by defining a trigger that initiates the flow, then configure actions and conditions to perform the desired tasks. This setup will streamline workflows and improve efficiency by automating repetitive or routine tasks.
 
@@ -21,39 +21,37 @@ In this task, you'll create a cloud flow in Power Automate to automate a specifi
    
 2. On the menu to the left, select **Solutions**.
    
-3. Create a new **solution** named **Copilot**.
+3. Select **+ New solution** to create a new solution named **Copilot**.
 
     ![screenshot of the prompt ](../Media/05/solution.png)
     
-4. Select **Copilot** under solution and Select **New > Automation > Cloud flow > Automated.**
+4. Select **Copilot** under solution and Select **New (1) > Automation (2) > Cloud flow (3) > Automated (4)**
 
-    ![screenshot of the prompt ](../Media/05/select-new-flow.png)
+    ![screenshot of the prompt ](../Media/05/L5T1S4-0603.png)
 
 >**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
 
-5. Give your flow a name as **my child flow**.
+5. Give your flow a name as **my child flow (1)**.
    
-6. Search for, **new email** in the Search all triggers box.
+6. Search for, **new email (2)** in the Search all triggers box.
    
-7. Select the **When a new email arrives (V3) trigger**.
+7. Select the **When a new email arrives (V3) trigger (3)** and select **Create (4)**.
 
-    ![screenshot of the prompt ](../Media/05/search-trigger.png)
-        
-8. Select **Create**.
+    ![screenshot of the prompt ](../Media/05/L5T1S7-0603.png)
     
-9. Select **New step**.
+8. Select **New step**.
 	
-10. Search for **Notification**, and then select the**Send me a mobile notification action**.
+9. Search for **Notification (1)**, and then select the **Send me a mobile notification action (2)**.
 
-     ![screenshot of the prompt ](../Media/05/new-notification.png)
+     ![screenshot of the prompt ](../Media/05/notification-0603.png)
 
-11. Add the Subject dynamic token to the Text field of the Send me a mobile notification card.
+10. Add the Subject dynamic token to the Text field of the Send me a mobile notification card.
 
      ![screenshot of the prompt ](../Media/05/new-email-notification-flow.png)
 
-12. Select **Save** to save your flow.
+11. Select **Save** to save your flow.
     
-13. Go back and Select **Solutions** to see your flow in the solution.
+12. Go back and select **Solutions** to see your flow in the solution.
 
      ![screenshot of the prompt ](../Media/05/new-flow-inside-solution.png)
 
@@ -71,15 +69,15 @@ In this task, you'll add an owner to a cloud flow in Power Automate. You'll acce
    
 5. Add or remove other owners (but not the flow's creator), including guest users.
 
-    > Note: The creator or an owner of a cloud flow, you'll find it listed on the Team flows tab in Power Automate, Shared connections can be used only in the flow in which they were created.Owners can use services in a cloud flow but can't modify the credentials for a connection that another owner created.To add more owners to a cloud flow:
+    > Note: The creator or an owner of a cloud flow, you'll find it listed on the Team flows tab in Power Automate, Shared connections can be used only in the flow in which they were created. Owners can use services in a cloud flow but can't modify the credentials for a connection that another owner created.To add more owners to a cloud flow:
 
 6. Sign in to **https://make.powerautomate.com/**, and then select **My flows**.
    
-7. Select the flow that you want to share, select the **vertical ellipsis (⋮)**, and then select **Share**.
+7. Select the flow that you want to share, select the **vertical ellipsis (⋮) (1)**, and then select **Share (2)**.
 
-     ![screenshot of the prompt ](../Media/view.png)
+     ![screenshot of the prompt ](../Media/05/L5T2S7-0603.png)
     
-8. Enter the name, email address, or group name for the person or group that you want to add as an owner.
+8. Enter the name, email address, or group name for the person or group that you want to add as an owner and click on **OK** after selecting the user. 
 
      ![screenshot of the prompt ](../Media/adduser.png)
     
@@ -107,10 +105,12 @@ In this task, you'll add a list of users as co-owners to a cloud flow in Power A
 In this task, you'll send a copy of a cloud flow to another user in Power Automate. You'll navigate to the flow you wish to share, use the options to create a copy, and send it to the intended recipient. This process allows the recipient to have their own version of the flow, which they can modify or use independently.
 
 1. On the flow details page command bar, select **Send a copy**.
-   
-2. On the Send a copy panel, you can edit the name and description of the flow you want to share, and specify the users with whom you want to share it.the recipient will receive an email stating that you have shared a cloud flow template with them, and they can then create their own instance of that flow.
 
-    ![screenshot of the prompt ](../Media/05/sendacopy.png)
+     ![screenshot of the prompt ](../Media/05/L5T4S1-0603.png)
+   
+2. On the Send a copy panel, you can edit the name and description of the flow you want to share, and specify the users with whom you want to share it.The recipient will receive an email stating that you have shared a cloud flow template with them, and they can then create their own instance of that flow.
+
+    ![screenshot of the prompt ](../Media/05/send-a-copy-0603.png)
 
 ## Summary 
 
