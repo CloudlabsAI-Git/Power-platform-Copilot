@@ -1,4 +1,4 @@
-# Lab-01: Create a canvas app with Copilot in Power Apps.
+# Module 1: Create a canvas app with Copilot in Power Apps
 
 ## Lab Scenario
 

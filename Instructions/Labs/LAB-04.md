@@ -1,4 +1,4 @@
-# Lab-04: Create a flow using the cloud flows designer with Copilot (Read Only).
+# Module 4: Create a flow using the cloud flows designer with Copilot (Read Only).
 
 ## Lab scenario 
 

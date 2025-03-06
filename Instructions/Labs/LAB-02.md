@@ -1,4 +1,4 @@
-# Lab-02: Create an approval flow with Copilot in Power Automate.
+# Module 2: Create an approval flow with Copilot in Power Automate
 
 ## Lab Scenario
 
