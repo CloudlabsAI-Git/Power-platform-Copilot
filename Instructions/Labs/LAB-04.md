@@ -7,8 +7,8 @@ In this exercise, you will create a flow using the cloud flows designer in Micro
 ## Lab objectives
 In this lab, you will perform the following:
 
-- Task-01 : Create a Flow.
-- Task-02 : Edit a flow using the designer with copilot capabilities.
+- Task-01: Create a Flow.
+- Task-02: Edit a flow using the designer with copilot capabilities.
 
 ## Task-01: Create a Flow.
 
@@ -16,25 +16,25 @@ In this task, you'll create a new flow in Power Automate to automate a specific 
 
 1.	Sign in to **https://make.powerautomate.com**.
    
-2.	Start to describe your automation scenario.
+2.	Start to **describe your automation scenario (1)** and select **Send me a message on Teams when I receive an email (2)**. 
 
-      ![screenshot of the prompt ](../Media/04/copilot-home-example.png)
+      ![screenshot of the prompt ](../Media/04/L4T1S2-0603.png)
    
-3.	To accept the flow that Copilot created for you, select **Next**.
-   
-4.	Review your connected apps and services, and then select **Next**.
-   
-5.	To finalize your flow, configure the required settings, and then select **Create flow**.
+3.	To accept the flow that Copilot created for you, select **Keep it and continue**.
 
-      ![screenshot of the prompt ](../Media/04/designer-1.png)
+      ![screenshot of the prompt ](../Media/04/L4T1S3-0603.png)
+   
+4.	Review your connected apps and services, and then select **Create flow** to create the flow.
 
-6.	On the panel to the right, follow the Copilot suggestions to complete the flow setup, or make edits to your flow using Edit with Copilot.
+      ![screenshot of the prompt ](../Media/04/L4T1S4-0603.png)
    
-7.	When your flow is complete, select **Save this flow**.
+5.	When your flow is complete, select **Save** to save the flow.
+
+      ![screenshot of the prompt ](../Media/04/L4T1S5-0603.png)
    
-8.	Once your flow is saved, we recommend that you test it. Do this by selecting Test in the upper-right corner.
+6.	Once your flow is saved, we recommend that you test it. Do this by selecting **Test** in the upper-right corner.
    
-## Task -02 : Edit a flow using the designer with copilot capabilities
+## Task -02: Edit a flow using the designer with copilot capabilities
 
 In this task, you'll edit an existing flow using the designer with Copilot capabilities in Power Automate. You'll access the flow in the designer, make modifications to triggers, actions, and conditions, and use Copilot's suggestions to optimize and refine the flow. This will enhance the flow’s functionality and ensure it meets your needs effectively.
 
@@ -42,19 +42,19 @@ In this task, you'll edit an existing flow using the designer with Copilot capab
    
 2.	On the left navigation pane, select **My flows**.
    
-3.	Find your flow, select the **vertical ellipses (⋮)**, and then select **Edit**.
+3.	Find your flow, select the **vertical ellipses (⋮) (1)**, and then select **Edit (2)**.
 
-      ![screenshot of the prompt ](../Media/04/copilot-edit.png)
+      ![screenshot of the prompt ](../Media/04/L2T1S3-0603.png)
 
->**Note** : Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
+>**Note**: Your flow opens with the Copilot pane on the side. You can now edit your flow by using the cloud flows designer with copilot capabilities. Try typing the following prompts.
 
    - Delete action X.
 
    - I want to send an email at the end of the flow with subject equal to the SharePoint file name.
 
-   - Instead of email, I want to post message on Teams channel.
+   - Instead of email, I want to post a message on the Teams channel.
 
-   - Check if each of the Sharepoint items being returned has a title that equals 'USB', and if so, send an email.
+   - Check if each of the SharePoint items being returned has a title that equals 'USB', and if so, send an email.
 
 ## Summary 
 In this lab, you have accomplished the following:
