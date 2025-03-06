@@ -174,7 +174,7 @@ In this task, you'll use Power Apps Copilot to quickly create a canvas app, incl
 
       >**Note**: When you first open the app, you might see a welcome message.just click the **Skip** button.
 
-11. The app that has been built for you should show in **Edit** mode.
+1. The app that has been built for you should show in **Edit** mode.
 
     ![screenshot of the prompt ](../Media/new-screen-1.png)
 
@@ -223,11 +223,11 @@ In this task, you'll use Power Apps Copilot to make edits to your app, such as m
 
     ![screenshot of the prompt ](../Media/01/copilot-new-1.png)
 
-16. Though you could modify the form to automatically fill in the fields for you, for this lab, you'll complete this step manually to observe how the app works.
+1. Though you could modify the form to automatically fill in the fields for you, for this lab, you'll complete this step manually to observe how the app works.
 
     ![screenshot of the prompt ](../Media/ocean-hill.png)
 
-17. Fill in the fields with the following information:
+1. Fill in the fields with the following information:
 
    - Agent Name - < Your name >
 
