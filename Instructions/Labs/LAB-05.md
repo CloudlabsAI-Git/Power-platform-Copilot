@@ -29,7 +29,7 @@ In this task, you'll create a cloud flow in Power Automate to automate a specifi
 
     ![screenshot of the prompt ](../Media/05/L5T1S4-0603.png)
 
->**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
+     >**Note**: If an automated cloud flow doesn't meet your requirements, you can create any other type of flow, Power Automate opens.
 
 5. Give your flow a name as **my child flow (1)**.
    
