@@ -79,7 +79,7 @@ In this task, you'll create an approval flow using Power Automate to automate th
 
 1. Complete the same steps for the **Address, Client (Client Full name) , Name, Client Email , Date, and Time fields**, When you're done with the rest of the fields, the values should resemble the following image.
 
-    ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter-added.png)
+    ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter-added(1).png)
 
 1. With the Details parameter completed, you can collapse the **Start and wait for an approval action** by selecting the double arrow icon.
 
