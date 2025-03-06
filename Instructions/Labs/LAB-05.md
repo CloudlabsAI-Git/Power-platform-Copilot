@@ -1,4 +1,4 @@
-# Module 5: Share a cloud flow.
+# Module 5: Share a cloud flow
 
 ## Lab scenario
 

@@ -1,4 +1,4 @@
-# Module 3: Build a basic Power Automate flow in Microsoft Copilot Studio.
+# Module 3: Build a basic Power Automate flow in Microsoft Copilot Studio
 
 ## Lab scenario
 
